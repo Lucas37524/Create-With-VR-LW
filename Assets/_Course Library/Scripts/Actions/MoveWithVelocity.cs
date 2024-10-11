@@ -54,4 +54,14 @@ public class MoveWithVelocity : MonoBehaviour
         if (!origin)
             origin = transform;
     }
+
+    public void ChangeSpeedUp()
+    {
+        speed = speed + 1.0f;
+    }
+
+    public void ChangeSpeedDown()
+    {
+        speed = speed - 1.0f;
+    }
 }
